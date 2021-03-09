@@ -30,11 +30,11 @@ class Student(models.Model):
         return self.student_last_name
 
 
-class Predmet(models.Model):
-    predmet_name = models.CharField(max_length=250, verbose_name='Название предмета')
-
-    def __str__(self):
-        return self.predmet_name
+# class Predmet(models.Model):
+#     predmet_name = models.CharField(max_length=250, verbose_name='Название предмета')
+#
+#     def __str__(self):
+#         return self.predmet_name
 
 
 
